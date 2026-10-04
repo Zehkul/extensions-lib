@@ -14,6 +14,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- `ProgressAwareSource` and `ChapterProgress`; optional source-owned page progress API
+  (`updateProgress`, `getProgress`, optional `getProgressSnapshot`).
 - `Source.getPopularManga`; Suspend alternative to `CatalogueSource.fetchPopularManga`.
 - `Source.getLatestUpdates`; Suspend alternative to `CatalogueSource.fetchLatestUpdates`.
 - `Source.getSearchManga`; Suspend alternative to `CatalogueSource.fetchSearchManga`.
