@@ -47,12 +47,12 @@ tapmoc {
 }
 
 mavenPublishing {
-    coordinates("com.github.keiyoushi", "extensions-lib", "1.6")
+    coordinates("com.github.zehkul", "extensions-lib", "1.6.0-bidirsync.1")
 
     pom {
         name.set("extensions-lib")
-        description.set("Stubs used for extensions in Tachiyomi and Mihon 0.x.")
-        url.set("https://github.com/keiyoushi/extensions-lib")
+        description.set("Stubs used for extensions in Tachiyomi/Mihon/Komikku; includes ProgressAwareSource (1.6.0-bidirsync.1).")
+        url.set("https://github.com/Zehkul/extensions-lib")
 
         licenses {
             license {
@@ -63,13 +63,13 @@ mavenPublishing {
         }
 
         organization {
-            name.set("Keiyoushi")
-            url.set("https://github.com/keiyoushi")
+            name.set("Zehkul")
+            url.set("https://github.com/Zehkul")
         }
 
         scm {
-            connection.set("scm:git:git://github.com/keiyoushi/extensions-lib.git")
-            url.set("https://github.com/keiyoushi/extensions-lib")
+            connection.set("scm:git:git://github.com/Zehkul/extensions-lib.git")
+            url.set("https://github.com/Zehkul/extensions-lib")
         }
     }
 }
